@@ -56,7 +56,7 @@ namespace TechJobsConsoleAutograded6
                     if (field.Value.ToLower().Contains(value.ToLower()) && !jobs.Contains(row))
                     {
                         jobs.Add(row);
-                        break;
+                       
                     }
                 }
             }

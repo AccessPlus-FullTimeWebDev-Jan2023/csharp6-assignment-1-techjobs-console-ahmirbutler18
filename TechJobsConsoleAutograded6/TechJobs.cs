@@ -144,12 +144,12 @@ namespace TechJobsConsoleAutograded6
             }
             foreach (Dictionary<string, string> job in someJobs)
             {
-                Console.WriteLine("*****");
+                Console.WriteLine(Environment.NewLine + "*****");
            foreach (KeyValuePair<string, string> kvp in job)
                 {
                     Console.WriteLine(kvp.Key + ": " + kvp.Value);
                 }
-                Console.WriteLine("*****" + Environment.NewLine);
+                Console.WriteLine("*****");
             }
         }
 
